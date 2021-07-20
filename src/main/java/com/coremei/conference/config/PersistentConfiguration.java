@@ -9,16 +9,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PersistentConfiguration {
 
-	@Bean
-	public DataSource dataSource() {
-		DataSourceBuilder<?> builder = DataSourceBuilder.create();
-		builder.url("jdbc:postgresql://localhost:5432/conference_app");
-		builder.username("postgres");
-		builder.password("admin");
-		
-		System.out.println("Custom datasource created...");
-		
-		return builder.build();
-
-	}
+//	@Bean
+//	public DataSource dataSource() {
+//		DataSourceBuilder<?> builder = DataSourceBuilder.create();
+//		builder.url("jdbc:postgresql://localhost:5432/conference_app");
+//		builder.username("postgres");
+//		builder.password("admin");
+//		
+//		System.out.println("Custom datasource created...");
+//		
+//		return builder.build();
+//
+//	}
 }
